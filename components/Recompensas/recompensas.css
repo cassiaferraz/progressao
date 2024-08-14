@@ -1,0 +1,47 @@
+.tablerecompensas {
+    font-size: .9rem;
+    
+  }
+
+  .coluna-tabela-recompensas{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0cceb;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 2.4rem;
+}
+
+.coluna-tabela-recompensas li{
+  font-weight: 600;
+  font-size: large;
+}
+
+.linha-tabela-recompensa{
+  display: flex;
+  justify-content: space-between;
+  background-color: #EFE5F4;
+  padding: .8rem;
+  border: white solid;
+}
+
+.corpodatabela{
+  display: flex;
+  justify-content: space-between;
+}
+
+.solicitar-recompensa{
+  border: 1px solid #660099;
+  border-radius: 10px;
+  width: 14%;
+  font-size: small;
+  height: 26px;
+  align-self: center;
+  background-color: #eb3d7d;
+  color: white;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.solicitar-recompensa:hover{
+  background-color: #660099;
+}

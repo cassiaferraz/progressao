@@ -1,0 +1,74 @@
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    box-shadow: 3px 3px 10px #420361;
+    border-radius: 10px;
+    width: 70vh;
+    max-width: 390px;
+    height: 65vh;
+    min-height: 420px;
+    margin-top: 30px;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    gap: 20px;
+}
+
+.login-form button {
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+    font-size: 15px;
+    color: #660099;
+    text-align: center;
+    border: solid 1.5px #660099;
+    transition: all 0.2s;
+
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.login-container small {
+    color: black;
+    font-size: 14px;
+}
+
+.login-container a {
+    text-decoration: none;
+    color: #660099;
+    font-weight: bold;
+}
+
+button:hover{
+background-color: #ddcbe5;
+}
+
+.vivo-icon {
+    width: auto;
+    height: 80px;
+    /* padding: 5px 5px; */
+    /* box-shadow: 2px 2px 8px #510279; */
+}
+

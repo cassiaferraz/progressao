@@ -1,0 +1,90 @@
+/*Geral*/
+
+*{
+    padding: 0;
+    margin: 0;
+    color:rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#660099;
+    background-position: center;
+    background-size: cover;
+}
+
+.todolist {
+    align-items: center;
+}
+
+button {
+    border: 1px solid #660099;
+    padding: 0.8% 1%;
+    font-size: 1rem;
+    display: fixed;
+    justify-content: center;
+    align-items: start;
+    animation: none;
+}
+
+input, select {
+    padding: 0.25rem;
+}
+
+.hide {
+    display: none;
+}
+
+.todocontainer {
+    position: flex;
+    margin: 4rem auto;
+    max-width: 600px;
+    background-color: #fdfdfd;
+    padding: 2rem;
+    border-radius: 16px;
+    justify-content: center;
+   
+}
+
+.todocontainer .todaspages {
+    text-align: center;
+    padding: 0 1rem 0.3rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #f6f6f6;
+}
+
+
+#toolbar {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+#toolbar h4 {
+    margin-bottom: .5rem;
+
+}
+
+.filter {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #918686 ;
+    transition: .5s;
+}
+
+.todo h5, h3{
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.todo button {
+    margin-left: .4rem;
+}
+

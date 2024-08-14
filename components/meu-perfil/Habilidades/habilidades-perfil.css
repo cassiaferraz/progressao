@@ -1,0 +1,97 @@
+.coluna-tabela-habilidades{
+  display:flex;
+  padding: .6rem;
+  justify-content: space-between;
+}
+.coluna2{
+display: flex;
+gap: 22px;
+padding-inline-end: .7rem;
+}
+ 
+.coluna-avaliacao {
+display: flex;
+flex-direction: column;
+font-size: 2.1vh;
+font-weight: 500;
+align-items: center;
+}
+ 
+.linha-tabela-habilidades{
+  padding: 0.1rem;
+  padding-left: .4rem;
+  padding-right: .8rem;
+  border: #dddddd solid 2px;
+  background-color: #fff;
+  font-size: smaller;
+}
+ 
+.avaliacao-auto{
+  height: 2%;
+  width: 1%;
+  padding: 0.3em;
+  background-color: #eb3d7d
+}
+ 
+.avaliacao-sugerido{
+  width: 1%;
+  height: 2%;
+  padding: 0.3em;
+  background-color: #ff9900;
+}
+ 
+.coluna-tabela-habilidades h4{
+  font-weight: 600;
+  font-size: large;
+  width: 100%;
+}
+ 
+.tabela-perfil {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: #e0cceb;
+  border-radius: 15px;
+}
+ 
+.corpodatabela {
+  display: flex;
+  flex-direction: column;
+  padding: .8rem;
+}
+ 
+.coluna-tabela-habilidades > div, .linha-tabela-habilidades {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+ 
+.coluna-tabela-habilidades h4, .linha-tabela-habilidades h4 {
+  flex-basis: 20%;
+}
+ 
+.progresso-auto-avalicao, .progresso-sugerido {
+  width: 100%;
+}
+ 
+.valores-avaliacao p {
+  text-align: center;
+}
+ 
+.botao-avaliar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-left: 25%;
+}
+ 
+.botao-avaliar a{
+  background-color: #eb3d7d;
+  border-radius: 15%;
+  border-radius: 15px;
+  font-size: small;
+  border: #eb3d7d solid 8px;
+  color: white;
+}

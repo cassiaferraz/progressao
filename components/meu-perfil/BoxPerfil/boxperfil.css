@@ -1,0 +1,57 @@
+.header-perfil{
+  display: flex;
+  align-items: center;
+  background-color: #6f2b92;
+  border-radius: 30px;
+  padding: 1rem;
+  font-size:smaller;
+  
+}
+
+.icon-usuario {
+  display: flex;
+  width: 25%;
+  width: 28%;
+}
+
+.info .subinfo, .exp-perfil{
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.coin{
+  width: 7%;
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 0.4rem;
+}
+
+  .coin-valor{
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+  }
+
+.subinfo-progresso {
+  display: flex;
+  align-items: center; 
+  color: #fff;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.typing-effect {
+  overflow: hidden;
+  border-right: .15em;
+  white-space: nowrap;
+  animation: typing 2.5s steps(40, end), blink-caret .75s step-end infinite;
+}

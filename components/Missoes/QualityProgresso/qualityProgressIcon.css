@@ -1,0 +1,108 @@
+.quality_progress {
+
+    position: relative;
+    border: 7px solid;
+    border-color: #fff;
+    
+}
+
+.reference_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 9vw;
+    height: 14px;
+}
+
+.reference_bar_line {
+    position: absolute;
+    bottom: -5px;
+    width: 0px;
+    height: 28px;
+}
+
+.atribuicao .reference_bar_line {
+    border-right: 2px solid var(--vivo-red);
+}
+
+.atribuicao .reference_bar_line {
+    border-right: 2px solid var(--vivo-green);
+}
+
+.reference_value {
+    position: absolute;
+    top: -25px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+.reference_bar_triangle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -4px;
+    top: -2.5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid var(--vivo-red);
+}
+
+.atribuicao .reference_bar_triangle {
+    border-top: 7px solid var(--vivo-red);
+}
+
+.atribuicao .reference_bar_triangle {
+    border-top: 7px solid var(--vivo-green);
+}
+
+.quality_progress_bar progress[value] {
+    width: 9vw;
+    position: relative;
+    top: -1px;
+    background-color: #f6f6f6;
+    height: 14px;
+}
+
+.quality_progress_bar progress[value]::-webkit-progress-bar {
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 18px;
+}
+
+.atribuicao .quality_progress_bar progress[value]::-webkit-progress-value {
+    /* Cor da barra de progresso no Chrome, Safari e Opera */
+    background-color: var(--vivo-pink);
+
+}
+
+.atribuicao .quality_progress_bar progress[value]::-moz-progress-bar {
+    /* Cor da barra de progresso no Firefox */
+    background-color: var(--vivo-pink);
+    padding: 1px;
+}
+
+.atribuicao .quality_progress_bar progress[value]::-webkit-progress-value {
+    /* Cor da barra de progresso no Chrome, Safari e Opera */
+    /* background-color: var(--vivo-pink); */
+    padding: 1px;
+}
+
+
+.quality_progress_value {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.atribuicao .quality_progress_value {
+    color: white;
+}
+
+

@@ -1,0 +1,10 @@
+.logout{
+    border: 1px solid #660099;
+    height: 1.8rem;
+    display: fixed;
+    align-items: start;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 1rem;
+}

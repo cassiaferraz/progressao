@@ -1,0 +1,46 @@
+#pag-desafios{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.corpodatabela-desafios {
+    display: flex;
+    flex-direction: column;
+    padding: .8rem;
+    align-content: center;
+    
+  }
+
+  .coluna-tabela-desafios{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+    background-color: #e0cceb;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+  .coluna-tabela-desafios li{
+    font-weight: 600;
+    font-size: large;
+}
+
+.linha-tabela-desafios{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFE5F4;
+    padding: .8rem;
+
+  }
+
+.coluna-tabela-desafios > div, .linha-tabela-desafios {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.corpodatabela-desafios p{
+  padding-left: 2.2rem;
+  margin-bottom: 5%;
+}
+

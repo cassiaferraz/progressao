@@ -1,0 +1,36 @@
+.pag-config{
+    display: inline;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#itens-config button{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    z-index: 1000; 
+}
+
+#itens-config {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+
+#lua, #notificacao{
+    width: 2%;
+}
+
+#sair{
+    width: 5%;
+    margin-top: 1rem;
+}
+#sair-app{
+    display: flex;
+    justify-content: space-between;
+}

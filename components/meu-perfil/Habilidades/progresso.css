@@ -1,0 +1,82 @@
+
+.progresso-auto-avalicao[value]{
+    /* Cor de fundo do progresso */
+    background-color: #f6f6f6;
+    margin-left: 0;
+}
+
+.progresso-auto-avalicao[value]::-webkit-progress-bar {
+   /* Cor de fundo do progresso no Chrome, Safari e Opera */
+   background-color: #fff;
+   width: 350px;
+   height: 15px;
+   max-width: 240px;
+   min-width: 10px;
+   padding: 2.5px;
+}
+
+.progresso-auto-avalicao[value]::-webkit-progress-value {
+   /* Cor da barra de progresso no Chrome, Safari e Opera */
+   background-color: #eb3d7d;
+}
+
+.progresso-auto-avalicao[value]::-moz-progress-bar {
+   /* Cor da barra de progresso no Firefox */
+   background-color: #eb3d7d;
+}
+
+.barra-progresso-habilidades{
+   display:flex;
+   flex-direction: column;
+   /* margin-left: auto;
+   margin-right: 10rem; */
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******SUGERIDO********* */
+.progresso-sugerido[value]{
+     /* Cor de fundo do progresso */
+     background-color: #f6f6f6;
+     margin-left: 0;
+}
+
+.progresso-sugerido[value]::-webkit-progress-bar {
+    /* Cor de fundo do progresso no Chrome, Safari e Opera */
+    background-color: #fff;
+    width: 350px;
+    height: 15px;
+    max-width: 240px;
+    min-width: 10px;
+    padding: 2.5px;
+}
+
+.progresso-sugerido[value]::-webkit-progress-value {
+    /* Cor da barra de progresso no Chrome, Safari e Opera */
+    background-color: #ff9900;
+}
+ 
+.progresso-sugerido[value]::-moz-progress-bar {
+    /* Cor da barra de progresso no Firefox */
+    background-color: #ff9900;
+}
+
+.barra-progresso-habilidades{
+    display:flex;
+    flex-direction: column;
+    /* margin-left: auto;
+    margin-right: 10rem; */
+    
+}
